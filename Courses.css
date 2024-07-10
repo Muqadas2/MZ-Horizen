@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Vogue.ttf);
+}
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #ccc;
+    align-items: center;  
+    font-family: myFont;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    background-image: url(bestone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.courses_page{
+    width: 100%;
+    height:3vh;
+    margin: 10px 20px 10px 10px;
+    padding:10px 10px 10px 10px;
+    text-overflow: hidden;
+    text-align: justify;
+    align-items: center;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+.courses {
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    border: 10px;
+    border-radius: 7.5px;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    background-color: grey;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.courses .cimg{
+    width:450px;
+    bottom:0;
+    margin:0;
+    border:0;
+    padding: 0;
+}
+.courses p {
+    color: #ffff;
+}
+.courses p span{
+    font-weight: 900;
+}

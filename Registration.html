@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registratoin form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+  <div class="forum">
+    <div class="forum_1">
+      <h1 class="main_heading" >mz horizen</h1>
+    <form action="">
+        <!-- pERSONAL INFORMATION -->
+        <h2>Personal Information</h2>
+        <label for="fname" id="l">First Name</label><br>
+        <input type="text" id="t" name="fname" placeholder="enter your first name" required>
+        <br>
+        <label for="fname" id="l">Last Name</label><br>
+        <input type="text" id="t" name="fname" placeholder="enter your last name" required>
+        <br>
+        <label for="birthday" id="l">Date Of Birth</label><br>
+        <input type="date" id="t" name="eventdate"  class="date">
+        <br>
+        <label for="Gender" id="l">Gender</label><br>
+        <input type="radio" id="gen" name="gender" value="Female">
+        <label for="">Female</label>
+        <input type="radio" id="gen" name="gender" value="Male">
+        <label for="">Male</label>
+        <input type="radio" id="gen" name="gender" value="trans-gender">
+        <label for="">trans-gender</label>
+        
+        <br>
+        <label for="" id="l">Country</label><br>
+        <select name="Country" id="t"  class="selectpicker countrypicker" data-flag="true" defualt-data=""></select>
+        <br>
+        <h2>Academia </h2>
+        <br>
+         <label for="" id="l">Highest Qualification</label><br>
+         <input type="text" id="t">
+         <br>
+        <label for="" id="l">Courses</label><br>
+        <input type="checkbox" id="opt_course" value="Freelancing">
+        <label for="">Freelancing</label><br>
+        <input type="checkbox" id="opt_course" value="Soft & Commucational skills">
+        <label for="">Soft and Commucational skills</label><br>
+        <input type="checkbox" id="opt_course" value="Vedio Editing">
+         <label for="">Vedio Editing</label><br>
+        <input type="checkbox" id="opt_course" value="Graphic Designing">
+        <label for="">Graphic Design</label><br>
+        <input type="checkbox" id="opt_course" value="Programming language">
+        <label for="">Programming Language</label><br>
+        <input type="checkbox" id="opt_course" value="Programming language">
+        <label for="">Machine Learning</label><br>
+
+        <br>
+        <h2>Payment Method</h2>
+        <label for="" aria-label="l">Bank Name</label><br>
+        <input type="text" id="t" required><br>
+        <label for="" id="l">Account Number</label><br>
+        <input type="text" id="t" required><br>
+        <label for="" id="l">CCV</label><br>
+        <input type="text" id="t" required><br>
+        <label for="" id="l">Expiry Date</label><br>
+        <input type="date" class="date">
+
+
+        <br>
+        <h2>Create Account</h2>
+        <label for="" id="l">User name</label><br>
+        <input type="text" id="t" required><br>
+        <label for="" id="l">Password</label><br>
+        <input type="text" id="t" required><br>
+        <label for="" id="l">Confirm Password</label><br>
+        <input type="text" id="t" required>
+        <br>
+        <br>
+        <button class="clear">Submit</button>
+        
+    </form>
+   
+  </div>
+  </div>
+</body>
+</html>

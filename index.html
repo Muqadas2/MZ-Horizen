@@ -1,0 +1,86 @@
+<!-- task 01 -->
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Tech</title>
+    <link rel="stylesheet" href="indexStyling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Franklin+Gothic&display=swap">
+    
+ </head>
+ <body>
+   <!-- HEDAER SECTION STARTS HERE -->
+     <header class="view_on_all_pages">
+          <div class="head">
+            <h1>MZ horizen</h1>
+          <p>the online learning platform</p>
+          </div>
+     </header>
+     <!-- HEADER SECTION ENDS HERE -->
+      <nav>
+         <ul class="sidebar">
+             <li onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed" ><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            <li><a href="Home.html">Home</a></li>
+             <li><a href="About.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="Login.html">login</a></li>
+            
+         </ul>
+         <ul>
+           <li>MZ Horizen</li>
+            <li class="hideOnMobile"><a href="Home.html">Home</a></li>
+            <li class="hideOnMobile"><a href="About.html">About</a></li>
+            <li class="hideOnMobile"><a href="Courses.html">Courses</a></li>
+            <li class="hideOnMobile"><a href="Registration.html">Registration</a></li>
+            <li class="hideOnMobile"><a href="Login.html">login</a></li>
+            <li onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+         </ul>
+     </nav>
+    <!-- nav bar ends here -->
+    
+     <!-- SEARCH BAR -->
+      <div class="searchbar">
+         <input type="text" id="bar">
+         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+      </div>
+       <!-- FOOTER STARTS HERE -->
+        <footer>
+         <div class="ft_logo">
+            <h1>mz horizen</h1>
+            <p>Join us from today to brighten your future.</p>
+         </div>
+         <div class="address">
+            <h1><img src="location.png" alt="">Office address</h1>
+            <address>
+               Al-Maki building,<br> Floor # 02,<br> 
+               Talagang Road, Chakwal. 
+            </address>
+         </div>
+         <div class="social_media_links">
+            <h1>Content with us</h1>
+            <a href="#" class="mail_box"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>email</a>
+            <a href="#" class="fa fa-facebook"> facebook</a>
+            <a href="#" class="fa fa-twitter"> twitter</a>
+            <a href="#" class="fa fa-linkedin"> linkedin</a>
+            <a href="#" class="fa fa-youtube"> youtube</a>
+         </div>
+         <div class="links">
+            <h1>Visit us</h1>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="Login.html">login</a></li>
+         </div>
+         <p style="bottom:0; font-weight:bold">&#1692024</p>
+        </footer>
+        <!-- FOOTER ENDS HERE -->
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+ </body>
+ </html>

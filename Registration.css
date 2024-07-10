@@ -1,0 +1,100 @@
+@font-face {
+  font-family: myfont;
+  src: url(Hello.ttf);
+}
+*{
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  color: black;
+  background-image: url(bestone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  
+}
+
+.forum{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateX(50%);
+  left: 50%;
+  width: 500px;
+  height: 100vh;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: black;
+  overflow-wrap: wrap;
+  gap: 15px;
+  overflow-y: scroll;
+}
+.forum_1{
+    min-width:fit-content;
+    height:fit-content;
+    align-items: center;
+    text-align: justify;
+    
+}
+.forum_1 h1{
+  font-size: 5vh;
+  color: black;
+  ;
+}
+.main_heading{
+    top:7%;
+    text-align: center;
+    font-family: myfont;
+    font-style: none;
+    color:black;
+    padding: 0;
+    font-weight: 600;
+}
+input{
+  max-width: 100%;
+  max-height: 100%;
+}
+#t{
+  width: 300px;
+  height: 5vh;
+  border:10px;
+  border-color: black solid ;
+}
+.date{
+  width: 300px;
+  height: 5vh;
+  border:10px;
+  border-color: black solid ;
+}
+label{
+  font-size: 20px;
+  
+}
+#l{
+  font-weight: 300;
+}
+.clear {
+    background-color: #0a7583;
+    width: 150px;
+    display:block;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 10px;
+    margin: auto;
+    border-radius: 13px;
+    cursor: pointer;
+    
+    
+}
+.clear:hover {
+    background-color: rgb(57, 160, 234);
+  }
+div {
+ 
+    
+    padding: 20px;
+}
