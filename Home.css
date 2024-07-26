@@ -56,17 +56,8 @@ body{
     font-size: 45px;
     font-weight: 500;
     font-family: FontMe;
-    animation-name: headtwo;
-    opacity: 1 ease-in-out;    
-    animation-delay: 7s;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
   }
-  @keyframes headtwo {
-    0% { opacity: 0; transform: translateY(-20px);color: blue; }
-    50% { opacity: 1; transform: translateY(0); color: red; }
-    100% { opacity: 0; transform: translateY(20px); color: black;}
-}
+
 .content p{
     text-wrap: wrap;
     font-size: 25px;
